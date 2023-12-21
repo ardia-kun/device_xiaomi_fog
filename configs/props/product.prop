@@ -42,6 +42,9 @@ ro.lmk.thrashing_limit_decay=25
 ro.lmk.psi_complete_stall_ms=80
 ro.lmk.psi_partial_stall_ms=50
 
+# Set support hide display cutout feature
+ro.support_hide_display_cutout=true
+
 # Phantom process monitoring
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
