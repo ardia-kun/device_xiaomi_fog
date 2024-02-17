@@ -14,4 +14,9 @@
 <resources>
     <!-- Show battery information -->
     <bool name="config_show_battery_info" translatable="false">false</bool>
+    <string-array name="configs_base">
+        <!-- ART heap compaction for cached apps -->
+        <item>activity_manager/use_compaction=true</item>
+
+    </string-array>
 </resources>
