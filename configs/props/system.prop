@@ -26,6 +26,10 @@ ro.surface_flinger.supports_background_blur=0
 # CNE
 persist.cne.feature=1
 
+# Deep Sleep
+pm.sleep_mode=1
+vendor.post_boot.parsed=1s
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
