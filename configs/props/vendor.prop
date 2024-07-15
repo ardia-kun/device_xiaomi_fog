@@ -143,14 +143,15 @@ ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.crypto.volume.metadata.method=dm-default-key
 
-# Dalvik
-dalvik.vm.systemuicompilerfilter=speed
-
 # Dex2oat
-dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
-dalvik.vm.boot-dex2oat-threads=8
-dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+pm.dexopt.boot=verify
+pm.dexopt.bg-dexopt=everything
+pm.dexopt.first-boot=quicken
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-filter=speed
 dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
 
 # Display
 vendor.display.camera_noc_efficiency_factor=0.70
