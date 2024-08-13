@@ -41,4 +41,6 @@
     <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
     <bool name="config_roundedCornerMultipleRadius">true</bool>
 
+     <!-- Whether to enable HEVC toggle for screenrecord -->
+    <bool name="config_screenRecordHEVC">false</bool>
 </resources>
