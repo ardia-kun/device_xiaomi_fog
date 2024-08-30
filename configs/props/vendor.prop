@@ -198,6 +198,15 @@ persist.vendor.dpmhalservice.enable=1
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
+# IMS
+persist.vendor.ims.no_stapa=1
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
 # Graphics
 debug.hwui.renderer=skiagl
 debug.mdpcomp.logs=0
