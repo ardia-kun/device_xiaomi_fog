@@ -10,6 +10,9 @@ git clone --recursive --depth 1 -b Swordx-ksu-13 https://github.com/ardia-kun/ke
 # Clone LineageOS' hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
+# Clone LineageOS' hardware/qcom-caf
+git clone https://github.com/LineageOS/android_hardware_qcom-caf_common hardware/qcom-caf/common
+
 # Kernel fixups
 cd kernel/xiaomi/fog
 rm -rf Android.bp
