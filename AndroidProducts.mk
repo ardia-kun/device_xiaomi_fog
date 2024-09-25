@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/morbid_fog.mk
+    $(LOCAL_DIR)/lineage_fog.mk
 
 COMMON_LUNCH_CHOICES := \
-    morbid_fog-userdebug 
+    lineage_fog-userdebug 
