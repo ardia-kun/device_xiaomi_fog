@@ -62,6 +62,7 @@ iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # LMKD
+ro.lmk.swap_compression_ratio=2
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=50
 ro.lmk.stall_limit_critical=40
