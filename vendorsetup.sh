@@ -5,7 +5,7 @@ rm -rf hardware/google/pixel/kernel_headers/Android.bp
 git clone https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --recursive --depth 1 -b Swordx-ksu-13 https://github.com/ardia-kun/kernel_xiaomi_fog kernel/xiaomi/fog
+git clone --recursive --depth 1 -b another-reset-kernelsu https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase/ kernel/xiaomi/fog
 
 # Clone LineageOS' hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
