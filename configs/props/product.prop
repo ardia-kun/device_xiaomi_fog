@@ -44,6 +44,10 @@ sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Radio
 persist.vendor.qti.telephony.vt_cam_interface=2
+ro.telephony.block_binder_thread_on_incoming_calls=false
+
+# Disable RescueParty due to high risk of data loss
+persist.sys.disable_rescue=true
 
 # Disable RescueParty due to high risk of data loss
 persist.sys.disable_rescue=true
