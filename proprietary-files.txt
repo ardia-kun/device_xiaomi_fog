@@ -601,14 +601,13 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Fingerprint - from MIUI
-vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service|6a6e57e03c43f08d9b202a4ac856c00f6fe6fe85
-vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc|e3d096d7879c251b24ebbd686185ec4f0df5a178
-vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.fpc.bengal.so|72fd380aa34b17d9af357b0f19a4ae2c6282658d
-vendor/lib64/hw/fingerprint.silead.default.so:vendor/lib64/hw/fingerprint.silead.bengal.so|e52e365f5b5a384356ff38d8e7d43a7f415519cf
-vendor/lib64/com.fingerprints.extension@1.0.so|d436afe3ba718577ac65c7819d908af8b5aa5aa5
-vendor/lib64/libsl_fp_impl.so|3954e6da3148f8f77a6e821cbee6b70ec52038ad
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|39d820c32426a131ade6b946b0684cc8e2bc44bb
-vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so|56e16748c7f4551ab807bf9201f8fc4992f25e64
+vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service
+vendor/etc/init/vendor.silead.hardware.fingerprintext@1.0-service.rc
+vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.silead.default.so
+vendor/lib64/libsl_fp_impl.so
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so;DISABLE_CHECKELF
 
 # FM (system)
 system_ext/lib64/fm_helium.so
