@@ -2,10 +2,10 @@
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Clone vendor tree
-git clone -b fourteen https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
+git clone -b fourteen-refresh https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 -b new https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
+git clone --depth=1 -b makeine-mk2 https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
 
 # Clone LineageOS' hardware/xiaomi
 git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
