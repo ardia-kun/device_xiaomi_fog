@@ -15,7 +15,3 @@ cd kernel/xiaomi/fog
 rm -rf Android.bp
 rm -rf techpack/audio/Android.bp
 cd ../../..
-
-#Sign-Key
-rm -rf vendor/lineage-priv
-git clone https://github.com/ardia-kun/vendor -b 14-backup vlp && cp -R vlp/* vendor/ && rm -rf vlp
