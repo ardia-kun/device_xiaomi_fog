@@ -18,7 +18,7 @@ TARGET_SUPPORTS_QUICK_TAP := false
 $(call inherit-product, device/xiaomi/fog/device.mk)
 #RV-FLAGS
 RVOS_MAINTAINER := Kidz_𝙀𝙒™
-RVOS_BUILD_TYPE := Unofficial
+RVOS_BUILD_TYPE := Official
 
 PRODUCT_NAME := lineage_fog
 PRODUCT_DEVICE := fog
