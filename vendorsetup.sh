@@ -2,7 +2,7 @@
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 
 # Clone vendor tree
-git clone -b refresh https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
+git clone -b fifteen https://github.com/ardia-kun/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
 git clone --depth=1 -b swordx/staging https://github.com/ardia-kun/fog_kernel_xiaomi_sm6225 kernel/xiaomi/fog
