@@ -17,6 +17,13 @@ TARGET_SUPPORTS_QUICK_TAP := false
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
+# MistOS
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER=Kidz_𝙀𝙒™
+TARGET_ENABLE_BLUR := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+WITH_GMS := true
+
 PRODUCT_NAME := lineage_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
