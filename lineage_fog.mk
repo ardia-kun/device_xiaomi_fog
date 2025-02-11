@@ -17,6 +17,13 @@ TARGET_SUPPORTS_QUICK_TAP := false
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Community
+MATRIXX_MAINTAINER := Kidz_𝙀𝙒™
+MATRIXX_CHIPSET := SDM680
+MATRIXX_BATTERY := 5500mAh
+MATRIXX_DISPLAY := 720x1650
+
 PRODUCT_NAME := lineage_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
