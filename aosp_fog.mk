@@ -17,10 +17,6 @@ TARGET_SUPPORTS_QUICK_TAP := false
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
-# SkylineUI Maintainer Flags
-SKYLINEUI_MAINTAINER := Kidz_𝙀𝙒™
-CUSTOM_BUILD_TYPE := UNOFFICIAL
-
 PRODUCT_NAME := aosp_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
