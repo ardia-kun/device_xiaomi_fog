@@ -5,7 +5,7 @@ rm -rf hardware/google/pixel/kernel_headers/Android.bp
 git clone -b thirteen https://github.com/alternoegraha/vendor_xiaomi_fog vendor/xiaomi/fog
 
 # Clone kernel tree
-git clone --depth=1 --recursive -b Swordx-ksu-13 https://github.com/ardia-kun/kernel_xiaomi_fog kernel_xiaomi_fof
+git clone --depth=1 --recursive https://github.com/asterixiverz/kernel_xiaomi_fog-msm4.19.git kernel/xiaomi/fog
 
 # Clone hardware/xiaomi from PixelOS-AOSP
 git clone -b thirteen https://github.com/PixelExperience/hardware_xiaomi hardware/xiaomi
@@ -14,10 +14,6 @@ git clone -b thirteen https://github.com/PixelExperience/hardware_xiaomi hardwar
 cd hardware/xiaomi
 rm -rf megvii
 cd ../..
-
-# Clang Missing Fixups
-rm -rf prebuilts/clang/host/linux-x86/clang-r450784d
-git clone https://gitlab.com/tejas101k/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d
 
 # Kernel fixups
 cd kernel/xiaomi/fog
@@ -30,4 +26,4 @@ rm -rf system/extras/su
 
 # Sign-Key
 rm -rf vendor/lineage-priv
-git clone https://github.com/ardia-kun/vendor -b 14 vlp && cp -R vlp/* vendor/ && rm -rf vlp
+git clone https://github.com/ardia-kun/vendor -b 14-backup vlp && cp -R vlp/* vendor/ && rm -rf vlp
