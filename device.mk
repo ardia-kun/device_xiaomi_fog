@@ -562,3 +562,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/fog/fog-vendor.mk)
+
+# Sign-key
+include vendor/lineage-priv/keys/keys.mk
