@@ -307,7 +307,6 @@ PRODUCT_PACKAGES += \
     FrameworksFog \
     FrameworksFogIN2 \
     LineageSDKFog \
-    NotchBarKiller \
     SettingsFog \
     SettingsProviderFog \
     SettingsProviderFogCommon \
