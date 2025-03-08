@@ -5,9 +5,8 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
-    AEXPapers \
+    Aperture \
     BuiltInPrintService\
-    DuckDuckGo \
     Etar \
     ExactCalculator \
     EmergencyInfo \
@@ -15,11 +14,14 @@ LOCAL_OVERRIDES_PACKAGES := \
     MusicPlayerGO \
     PrintRecommendationService \
     PrintSpooler \
+    Recorder \
     SecureElement \
     Stk \
     Traceur \
     MatLog \
-    QuickAccessWallet
+    QuickAccessWallet \
+    ViaBrowser\
+
     
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
