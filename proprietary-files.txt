@@ -889,7 +889,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off charging daemon - from MIUI
-bin/charger:bin/chargeonlymode;FIX_SONAME
+bin/charger:bin/chargeonlymode;FIX_SONAME;DISABLE_CHECKELF
 
 # QCC
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
