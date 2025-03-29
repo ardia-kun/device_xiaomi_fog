@@ -5,7 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/fog
-KERNEL_PATH := device/xiaomi/fog-kernel
 
 # A/B
 BOARD_USES_RECOVERY_AS_BOOT := true
@@ -71,6 +70,11 @@ TARGET_SCREEN_DENSITY := 320
 
 # FM
 BOARD_HAVE_QCOM_FM := true
+
+# Global LTO
+TARGET_GLOBAL_LTO := thin
+TARGET_GLOBAL_OPTIMIZATION := O3
+TARGET_GLOBAL_THINLTO := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/configs/vintf/framework_compatibility_matrix.xml
@@ -194,11 +198,7 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Recovery
-<<<<<<< HEAD
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-=======
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
->>>>>>> Lineage-22.2
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Releasetools
