@@ -131,12 +131,12 @@ debug.sf.enable_egl_image_tracker=0
 debug.sf.enable_gl_backpressure=false
 debug.sf.enable_transaction_tracing=false
 debug.sf.use_phase_offsets_as_durations=1
-debug.sf.late.sf.duration=10500000
-debug.sf.late.app.duration=20500000
-debug.sf.early.sf.duration=16000000
-debug.sf.early.app.duration=16500000
-debug.sf.earlyGl.sf.duration=13500000
-debug.sf.earlyGl.app.duration=21000000
+debug.sf.late.sf.duration=16800000
+debug.sf.late.app.duration=16800000
+debug.sf.early.sf.duration=13100000
+debug.sf.early.app.duration=14600000
+debug.sf.earlyGl.sf.duration=13100000
+debug.sf.earlyGl.app.duration=14600000
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
 persist.sys.sf.color_mode=0
@@ -200,9 +200,9 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 
-# HWUI
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
+# Media
+vendor.media.target.version=3
+vendor.sys.media.target.version=3
 
 # NFC
 ro.hardware.nfc_nci=pn8x
@@ -214,7 +214,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
-persist.vendor.data.mode=concurrent
 persist.vendor.radio.add_power_save=0
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.atfwd.start=true

@@ -1,5 +1,6 @@
 # Audio
 audio_para_version=C3Q-Audiopara-V01-20211102
+audio.deep_buffer.media=true
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
 ro.config.vc_call_vol_steps=11
@@ -32,6 +33,9 @@ bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 bluetooth.profile.vcp.controller.enabled?=true
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Low memory killer daemon
 ro.lmk.kill_heaviest_task=true
 ro.lmk.thrashing_limit=50
@@ -43,14 +47,11 @@ ro.lmk.psi_partial_stall_ms=50
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
 # Radio
+persist.sys.radio.force_lte_ca=true
 persist.vendor.qti.telephony.vt_cam_interface=2
 
 # Battery Saving
-persist.radio.add_power_save=1
-pm.sleep_mode=1
-ro.ril.disable.power.collapse=0
-ro.ril.fast.dormancy.rule=1
-ro.ril.fast.dormancy.timeout=3
-ro.mot.eri.losalert.delay=100
-ro.vold.umsdirtyratio=20
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
 power.saving.mode=1
+pm.sleep_mode=1
